@@ -1,0 +1,8 @@
+"runArgs": [
+    "--user-data-dir=/root/.config",
+    "--disable-dev-shm-usage"
+],
+"extensions": [
+    "ms-python.python"
+],
+"postCreateCommand": "pip install selenium"
