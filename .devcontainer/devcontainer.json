@@ -1,0 +1,17 @@
+{
+  "name": "Python 3",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "3"
+    }
+  },
+  "runArgs": ["-v", "${PWD}:/workspace"],
+  "extensions": [
+    "ms-python.python",
+    "GitHub.copilot"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
